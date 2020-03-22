@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/SensorData" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="0VDNhiWUp9.SensorData" package="0VDNhiWUp9" required_version="4.0"/>
+    <author email="arnab.sharma@samsung.com">arnab.sharma</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>SensorData</name>
+    <tizen:profile name="wearable"/>
+
+    <tizen:privilege name="http://developer.samsung.com/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.read"></tizen:privilege>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.write"></tizen:privilege>
+    <tizen:privilege name="http://tizen.org/privilege/mediastorage"></tizen:privilege>
+    <tizen:privilege name="http://tizen.org/privilege/location"></tizen:privilege>
+
+</widget>
